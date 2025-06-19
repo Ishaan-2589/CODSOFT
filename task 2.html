@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CODSHOP | Big Sale is Live!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html,
+        body {
+            max-width: 100%;
+            overflow-x: hidden;
+            font-family: 'Poppins', Arial, sans-serif;
+            background: linear-gradient(-45deg, #f6d365, #fda085, #84fab0, #8fd3f4);
+            background-size: 400% 400%;
+            animation: gradientAnimation 12s ease infinite;
+        }
+
+        .container {
+            max-width: 700px;
+            width: 95%;
+            margin: 30px auto;
+            background-color: #ffffff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        .header {
+            background: linear-gradient(90deg, #007BFF, #00c6ff);
+            color: #ffffff;
+            text-align: center;
+            padding: 35px 25px;
+        }
+
+        .header img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto 10px;
+        }
+
+        .header h1 {
+            margin: 10px 0 5px;
+            font-size: 36px;
+        }
+
+        .header p {
+            font-size: 20px;
+        }
+
+        .banner img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .content {
+            padding: 30px 25px;
+            text-align: center;
+        }
+
+        .content p {
+            font-size: 20px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .discount {
+            font-size: 22px;
+            color: #000;
+            margin: 20px 0;
+        }
+
+        .cta-button {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 16px 32px;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            border-radius: 6px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #218838;
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+
+        blockquote {
+            font-style: italic;
+            color: #444;
+            margin: 30px auto;
+            font-size: 16px;
+        }
+
+        .footer {
+            font-size: 14px;
+            color: #999;
+            text-align: center;
+            padding: 25px;
+            background-color: #f0f0f0;
+        }
+
+        .footer a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        .social-icons img {
+            width: 24px;
+            margin: 0 5px;
+            vertical-align: middle;
+            display: inline-block;
+        }
+
+        @media screen and (max-width: 700px) {
+            .content p {
+                font-size: 18px;
+            }
+
+            .cta-button {
+                padding: 14px 28px;
+            }
+
+            .header h1 {
+                font-size: 30px;
+            }
+
+            .header p {
+                font-size: 18px;
+            }
+        }
+
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <img src="CODSHOP logo.png" alt="Company Logo">
+            <h1>Big Sale is Live!</h1>
+            <p>Up to 50% OFF on selected items</p>
+        </div>
+
+        <!-- Banner -->
+        <div class="banner">
+            <img src="BANNER.png" alt="Sale Banner">
+        </div>
+
+        <!-- Content -->
+        <div class="content">
+            <p><b>Don't miss out on our exclusive offers. Shop your favorite items at unbeatable prices. Hurry, the
+                    sale won't last long!
+                </b></p>
+
+            <p class="discount">Use Code: <strong>CODSOFT</strong> at checkout!</p>
+
+            <a href="#" class="cta-button">Shop Now</a>
+
+            <blockquote>“This is the best deal I've ever got. Loved the product and the service!”<br><strong>- Happy
+                    Customer</strong></blockquote>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="social-icons">
+                <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/145/145802.png" alt="Facebook" /></a>
+                <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/145/145812.png" alt="Instagram" /></a>
+                <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="Twitter" /></a>
+            </div>
+            <br />
+            You're receiving this email because you subscribed to our newsletter.
+            <a href="#">Unsubscribe</a><br /><br />
+            Need help? <a href="mailto:support@yourbrand.com">Contact Us</a>
+        </div>
+    </div>
+</body>
+
+</html>
