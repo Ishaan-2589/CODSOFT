@@ -43,12 +43,14 @@ It replicates a real-world marketing email with modern layout, clean branding, a
 
 ## 📂 Folder Structure
 
+```
 Task 2 - Email Template/
 ├── task 2.html
 ├── README.md
 ├── BANNER.png
 ├── CODSHOP logo.png
 └── preview.png
+```
 
 ---
 
@@ -69,7 +71,7 @@ Designed as part of the **UI/UX Internship Program by [CodSoft](https://www.cods
 ## 📫 Connect with Me
 
 - 📧 Email: *ishaanralhan0@gmail.com*
-- 💼 LinkedIn: [linkedin.com/in/YOUR-USERNAME](https://linkedin.com/in/YOUR-USERNAME)
-- 🌐 GitHub: [github.com/YOUR-USERNAME](https://github.com/YOUR-USERNAME)
+- 💼 LinkedIn: [linkedin.com/in/Ishaan-](https://www.linkedin.com/in/ishaan-500900351/)
+- 🌐 GitHub: [github.com/Ishaan-2589](https://github.com/Ishaan-2589)
 
 ---
