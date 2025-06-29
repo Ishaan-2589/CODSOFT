@@ -1,5 +1,5 @@
 # 🌟 CodSoft UI/UX Internship Projects  
-**By Ishaan Ralhan**  
+**By Ishaan**  
 _BCA Student, JIMS Vasant Kunj, Delhi_  
 
 This repository contains all three UI/UX projects completed as part of the **CodSoft UI/UX Internship**. Each project demonstrates modern, responsive frontend design using **HTML, CSS**, and basic **JavaScript** — with an emphasis on layout, animation, and user experience.
